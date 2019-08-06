@@ -1,33 +1,47 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Projeto Future4</title>
-    <!-- Teste de commit pelo vccode-->
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <table>
-        <tr>
-            <td>
-                <h1>Projeto Seletivo Future4 </h1>               
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="future4.jpg" alt="Future4" style="widows: 50%;height:30%">
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <h2>Turma Web Full Stack 01</h2>
-            </td>
-        </tr>
-        <tr>
-            <td><h1>Vazio</h1></td>
-        </tr>
-        <tr>
-            <td><h1>Vazio</h1></td>
-        </tr>    
-    </table>
-</body>
+<!DOCTYPE html> <!-- Para informar o tipo do documento-->
+<html lang="pt-br"> <!-- Para informar a linguagem usada no documento-->
+    <head> <!-- cabeçalho do documento, contem algumas informações nao visiveis na pagina -->
+        <title>Projeto Future4</title><!-- nome da pagina, que ira aparecer no topo -->
+        <link rel="stylesheet" type= "text/css" href="style.css"> <!-- link para o arquivo externo do css -->
+        <meta charset="utf-8"><!--meta- para receber metadados e charset- para utilizar o encode do padrao brasileiro, que aceita acentos -->
+        <script src="myScript.js"></script>
+    </head>
+    <body><!-- elemento que contem o conteudo visivel da pagina-->
+        <div>
+            <div id="primeira_linha" >
+                <h1>Projeto seletivo Future4</h1>
+            </div>
+            <div id="segunda_linha" >
+                <img src="C:\Users\LEONARDOCARVALHODOPR\projetositefuture4\admissionProjectWFS01\imagens\future4.jpg" ><!--local da imagem com alguns atributos -->
+            </div>
+            <div id="terceira_linha" >
+                <h2><i>Turma Web Full Stack 01</i></h2>
+            </div>
+            <div id="quarta_linha" class="container">
+                <div class="box">
+                    <p><b>HTML</b></p>
+                </div>
+                <div class="box">
+                    <p><b>CSS</b></p>
+                </div>
+                <div class="box">
+                    <p><b>JAVASCRIPT<b></p>
+                </div>
+                
+                
+            </div>
+            <div id="quinta_linha" >
+                <input type="text" id="campo_email" size="60" maxlength="60" placeholder="Digite seu e-mail" >
+                <input type="button"  id="btn_enviar_email" value="Enviar" color="white" onclick="myFunction()">
+            </div>
+        </div>
+       
+        <footer><!--elemento que representa o rodape -->
+
+        </footer>
+    </body>
+    
 </html>
+
+
+

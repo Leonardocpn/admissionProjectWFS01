@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+#primeira_linha  {
+  background: rgb(89, 95, 150);
+  color: white;
+  text-align: center;
+  padding: 90px;
+  font-size: 32px;
+  font-family:Arial, Helvetica, sans-serif
+}
+#primeira_linha h1{
+  margin: 0px
+}
+#segunda_linha {
+  background:  rgb(89, 95, 150);
+  height: 280px;
+  text-align: center;
+  border: none;
+  margin: none;
+  
+}
+#segunda_linha img{
+  width: 750px;
+}
+#terceira_linha {
+  background: rgb(89, 95, 150);
+  color: white;
+  text-align: end;
+  padding-right: 30px;
+  padding-top: 200px;
+  padding-bottom: 40px;
+  font-size: 28px;
+  font-family:Arial, Helvetica, sans-serif
+}
+#terceira_linha h2{
+  margin: 0px
+}
+#quarta_linha {
+  background: rgb(205, 77, 0); 
+}
+#quarta_linha p{
+  margin: 0px;
+  font-family:Arial, Helvetica, sans-serif
+}
+#quinta_linha {
+  background: rgb(216, 216, 216);
+  
+  text-align: center;
+  font-family:Arial, Helvetica, sans-serif;
+  padding: 90px;
+}
+
+#btn_enviar_email{
+  color: white;
+  background: rgb(205, 77, 0);
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: 30px;
+  font-family:Arial, Helvetica, sans-serif;
+  width: 100px;
+  font-size: 28px;
+  
+}
+#campo_email{
+  margin: 0px;
+  padding: 00px;
+  border: 0px;
+  height: 30px;
+  font-size: 28px;
+  
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: none;
+  border: none;
+}
+.box {
+  color:  rgb(205, 77, 0);
+  padding: 100px;
+  background: white;
+  margin: 50px;
+  font-size:  28px;
+  width: 30%;
+  text-align: center;
+  
+}
+
+
+
+
