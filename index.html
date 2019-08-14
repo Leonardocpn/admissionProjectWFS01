@@ -3,45 +3,34 @@
     <head> <!-- cabeçalho do documento, contem algumas informações nao visiveis na pagina -->
         <title>Projeto Future4</title><!-- nome da pagina, que ira aparecer no topo -->
         <link rel="stylesheet" type= "text/css" href="style.css"> <!-- link para o arquivo externo do css -->
-        <meta charset="utf-8"><!--meta- para receber metadados e charset- para utilizar o encode do padrao brasileiro, que aceita acentos -->
-        <script src="myScript.js"></script>
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0"><!--meta- para receber metadados e charset- para utilizar o encode do padrao brasileiro, que aceita acentos -->
+        <script src="myScript.js"></script><!--Link para o arquivo do javascript -->
     </head>
     <body><!-- elemento que contem o conteudo visivel da pagina-->
-        <div>
-            <div id="primeira_linha" >
-                <h1>Projeto seletivo Future4</h1>
+        <div class="grid-container"><!--Classe que ira conter as outras div para a melhor organizacao e distribuicao na tela -->
+            <div class="linha1" >
+                <h1 id="bem_vindo">Projeto seletivo Future4</h1> <!-- texto que ira mudar apos a chamada da funcao -->
             </div>
-            <div id="segunda_linha" >
-                <img src="C:\Users\LEONARDOCARVALHODOPR\projetositefuture4\admissionProjectWFS01\imagens\future4.jpg" ><!--local da imagem com alguns atributos -->
+            <div class="linha2" >
+                <img src="future4.jpg" id="imagem" alt="Future4" ><!--local da imagem com alguns atributos -->
             </div>
-            <div id="terceira_linha" >
+            <div class="linha3" >
                 <h2><i>Turma Web Full Stack 01</i></h2>
+            </div>   
+            <div class="linha4_esq">
+                <p><b>HTML</b></p>
             </div>
-            <div id="quarta_linha" class="container">
-                <div class="box">
-                    <p><b>HTML</b></p>
-                </div>
-                <div class="box">
-                    <p><b>CSS</b></p>
-                </div>
-                <div class="box">
-                    <p><b>JAVASCRIPT<b></p>
-                </div>
-                
-                
+            <div class="linha4_meio">
+                <p><b>CSS</b></p>
             </div>
-            <div id="quinta_linha" >
-                <input type="text" id="campo_email" size="60" maxlength="60" placeholder="Digite seu e-mail" >
-                <input type="button"  id="btn_enviar_email" value="Enviar" color="white" onclick="myFunction()">
+            <div class="linha4_dir">
+                <p><b>Javascript<b></p>
+            </div>  
+            </div>
+            <div   class="linha5">
+                <input class="txt" type="text" id="campo_email" size="60" maxlength="60" placeholder="Coloque aqui o seu e-mail"><input class="btn" type="button"
+                  id="btn_enviar_email" value="Enviar" onclick="valida_email()">
             </div>
         </div>
-       
-        <footer><!--elemento que representa o rodape -->
-
-        </footer>
     </body>
-    
 </html>
-
-
-
